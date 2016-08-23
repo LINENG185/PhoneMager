@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/phonename"
+        android:gravity="center_horizontal"
+        android:text="华为荣耀7"
+        android:textColor="@color/back"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/version"
+        android:gravity="center_horizontal"
+        android:text="HhuaWei android 7.0"
+        android:textColor="@color/back"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:progressDrawable="@drawable/progress_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progress="30"/>
+    <TextView
+        android:id="@+id/momory"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="已用内存：177.8M/1890M"/>
+    <Button
+        android:background="@drawable/home_selector"
+        android:textSize="20sp"
+        android:textColor="@color/wihte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一键清理"/>
+
+</LinearLayout>

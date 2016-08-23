@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">手机管家</string>
+    <string name="main_name">一站式号码服务平台</string>
+    <string name="v">v.1.0.1</string>
+    
+    <!--引导页面-->
+    <string name="iv_1_descrption">第一个引导图标</string>
+    <string name="iv_2_descrption">第二个引导图标</string>
+    <string name="iv_3_descrption">第三个引导图标</string>
+    <string name="skip">直接跳转</string>
+    <!--标题栏-->
+    <string name="left_actionbar">actionbar左边的图标</string>
+    <string name="right_actionbar">actionbar右边的图标</string>
+    <string name="actionbar_name">安卓易手机助手</string>
+    <!--通知页面-->
+    <string name="setting">通知图标</string>
+</resources>

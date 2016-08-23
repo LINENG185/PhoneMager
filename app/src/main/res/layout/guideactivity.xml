@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:contentDescription="@string/iv_1_descrption"
+            android:id="@+id/iv_1"
+            android:layout_margin="10dp"
+            android:src="@mipmap/adware_style_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:contentDescription="@string/iv_2_descrption"
+            android:id="@+id/iv_2"
+            android:layout_margin="10dp"
+            android:src="@mipmap/adware_style_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:contentDescription="@string/iv_3_descrption"
+            android:id="@+id/iv_3"
+            android:layout_margin="10dp"
+            android:src="@mipmap/adware_style_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:visibility="gone"
+       android:id="@+id/tv_guide"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        />
+</RelativeLayout>
